@@ -4,7 +4,7 @@ import axios from 'axios'
     export default{
         data() {
         return {
-            cocktailsList: []
+            cocktailsList: [],
         }
     },
     methods: {
@@ -26,7 +26,7 @@ import axios from 'axios'
 
 <template>
     
-    <h1>cocktails page</h1>
+    <h1 class="text-center">Cocktails</h1>
     
 </template>
 
