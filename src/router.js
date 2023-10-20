@@ -2,34 +2,51 @@ import { createRouter, createWebHistory } from "vue-router";
 
 // importazione componenti singole pagine
 import HomePage from "./pages/Home.vue";
-import PostsShowPage from "./pages/posts/Show.vue";
-// ... import di altri componenti
+import ShowPage from "./pages/ShowPage.vue";
+import AboutUsPage from "./pages/AboutUs.vue";
+import ContactsPage from "./pages/Contacts.vue";
+import NotFoundPage from "./pages/NotFound.vue";
 
-// definiamo le rotte
+
 const routes = [
   {
-    path: "/", // uri da scrivere nel browser
+    path: "/", 
     name: "home", // nome della rotta da usare per creare un link
-    component: HomePage // componente che ritorna l'html della pagina
+    component: HomePage 
   },
-	// ... altre rotte
+
   {
-    // Show di un singolo post
-    path: "/posts/:id",
-    name: "posts.show",
-    component: PostsShowPage
-  }
+    path: "/cocktail/:id",
+    name: "cocktail.show",
+    component: ShowPage,
+  },
+
+  {
+    path: "/aboutus",
+    name: "about_us",
+    component: AboutUsPage,
+  },
+
+  {
+    path: "/contacts",
+    name: "contacts",
+    component: ContactsPage,
+  }, 
+
+  {
+    path: "/:pathMatch(.)",
+    name: "not-found",
+    component: NotFoundPage,
+  }, 
+
 ]
 
 // creazione istanza di Router
 const router = createRouter({
-  // Serve ad indicare come gestire l'url al cambio pagina
   history: createWebHistory(),
-	// passiamo l'array delle rotte
   routes
 });
 
-// esportiamo l'istanta router per poterla usare dentro main.js
 export { router };
 
 
