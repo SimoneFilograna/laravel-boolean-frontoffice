@@ -1,14 +1,9 @@
 <script>
-<<<<<<< HEAD
-    export default{
-        
-    }
-=======
 export default {
 
 }
->>>>>>> header-footer
 </script>
+
 
 <template>
   <div class="container">
