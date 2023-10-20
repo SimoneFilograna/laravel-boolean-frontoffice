@@ -11,31 +11,11 @@
 </script>
 
 <template>
-  <header>
-    <TheHeader></TheHeader>
-  </header>
-  <main>
-    <router-view></router-view>
-  </main>
-  <footer>
-    <TheFooter></TheFooter>
-  </footer>
+  <TheHeader></TheHeader>
+  <router-view></router-view>
+  <TheFooter></TheFooter>
 </template>
 
 <style lang="scss">
-
-header {
-  width: 100vw;
-  position: fixed;
-  top: 0;
-  z-index: 5;
-}
-
-footer {
-  width: 100vw;
-  position: fixed;
-  bottom: 0;
-  z-index: 5;
-}
 
 </style>
