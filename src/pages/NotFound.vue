@@ -5,7 +5,10 @@
 </script>
 
 <template>
-    <h1>ERRROSADIJDFBNSDJFe</h1>
+    <div class="container">
+        <h1>Error 404 - Not Found</h1>
+        <h2>Oops, qualcosa è andato storto. La pagina che stai cercando non esiste o potrebbe essere stata cancellata.</h2>
+    </div>
 </template>
 
 <style lang="scss" scoped>
