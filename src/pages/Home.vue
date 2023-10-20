@@ -14,7 +14,9 @@ export default {
 
 <template>
     <Slider></Slider>
-    <h1>HELLO FRONtoffice</h1>
+    <div class="container mt-4">
+        <h1 class="text-center">HOME</h1>
+    </div>
 </template>
 
 <style lang="scss" scoped></style>
