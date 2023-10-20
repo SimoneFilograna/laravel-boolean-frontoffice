@@ -12,7 +12,7 @@ export default {
         <img style="height: 80px;" src="../assets/images/nav-logo.png">
       </div>
       <div class="pt-5">
-        <p class="color fs-6">Via Brombeis, 23, Napoli</p>
+        <p class="color fs-6"><i class="fa-solid fa-location-dot" style="color: #80725f;"></i> Via Brombeis, 23, Napoli</p>
       </div>
       <div class="pt-5">
         <ul class="d-flex list-unstyled gap-3">
