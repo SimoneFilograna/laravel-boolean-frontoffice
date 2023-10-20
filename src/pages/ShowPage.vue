@@ -1,6 +1,6 @@
 <script>
     import axios from 'axios'
-    import CardCocktail from '../components/CardCocktail.vue'
+
 
     export default {
                    
@@ -11,7 +11,8 @@
         },
         methods: {
             fetchData() {
-                axios.get('http://127.0.0.1:8000/api/cocktails' +this.$route.params.id)
+               console.log(this.$route.params)
+                axios.get('http://127.0.0.1:8000/api/cocktail/' + this.$route.params.id)
                     .then((response) => {
                         //ottengo i dati relativi ai cocktails
                         this.cocktailEl = response.data;
@@ -31,7 +32,7 @@
 
 <template>
     <h1>show</h1>
-    {{ cocktailEl }}
+
     
 </template>
 
