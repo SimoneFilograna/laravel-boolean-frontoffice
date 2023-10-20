@@ -13,9 +13,17 @@
 <template>
   <TheHeader></TheHeader>
   <router-view></router-view>
-  <TheFooter></TheFooter>
+  <footer>
+    <TheFooter></TheFooter>
+  </footer>
 </template>
 
 <style lang="scss">
+
+footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}
 
 </style>
