@@ -30,7 +30,7 @@
 
 <template>
     
-    <h1 class="text-center">Cocktails</h1>
+    <h1 class="text-center mt-5">Cocktails</h1>
     <div class="container">
         <div class="row row-cols-3 g-5 justify-content-center">
             <div class="col" v-for="cocktail in cocktailsList" :key="cocktail.id">

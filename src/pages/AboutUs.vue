@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div class="container">
-        <h1 class="color mt-4 text-center fw-bold">Cocktail Lounge</h1>
+        <h1 class="color mt-4 text-center fw-bold mt-5">Cocktail Lounge</h1>
         <div class="col-8 m-auto">
             <div class="d-flex my-5 gap-5">
                 <div class="image-box">
