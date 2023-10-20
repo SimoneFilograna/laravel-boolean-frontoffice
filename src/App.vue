@@ -11,8 +11,12 @@
 </script>
 
 <template>
-  <TheHeader></TheHeader>
-  <router-view></router-view>
+  <header>
+    <TheHeader></TheHeader>
+  </header>
+  <main>
+    <router-view></router-view>
+  </main>
   <footer>
     <TheFooter></TheFooter>
   </footer>
@@ -20,10 +24,18 @@
 
 <style lang="scss">
 
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+
 footer {
   width: 100vw;
   position: fixed;
   bottom: 0;
+  z-index: 5;
 }
 
 </style>
