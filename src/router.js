@@ -6,6 +6,7 @@ import ShowPage from "./pages/ShowPage.vue";
 import AboutUsPage from "./pages/AboutUs.vue";
 import ContactsPage from "./pages/Contacts.vue";
 import NotFoundPage from "./pages/NotFound.vue";
+import CocktailsPage from "./pages/Cocktails.vue";
 
 
 const routes = [
@@ -13,6 +14,12 @@ const routes = [
     path: "/", 
     name: "home", // nome della rotta da usare per creare un link
     component: HomePage 
+  },
+
+  {
+    path: "/cocktails",
+    name: "cocktails",
+    component: CocktailsPage,
   },
 
   {
