@@ -32,7 +32,7 @@ export default {
 
 <template>
 
-    <div class="container">
+    <div class="container"> 
 
         <div class="row">
 
