@@ -20,8 +20,8 @@ export default {
         <img src="../assets/images/nav-logo.png">
         <ul class="d-flex list-unstyled gap-3 pt-3">
           <li><router-link class="color text-decoration-none fs-5" :to="{ name: 'home' }">Home</router-link></li>
-          <!-- <li><router-link class="text-decoration-none fs-5" :to="{ name: 'cocktails'}">Cocktail</router-link></li> -->
-          <!-- <li><router-link class="text-decoration-none fs-5 :to="{ name: 'cocktail.show' }">Cocktail</router-link></li> -->
+          <li><router-link class="text-decoration-none fs-5" :to="{ name: 'cocktails'}">Cocktail</router-link></li>
+          <!-- <li><router-link class="text-decoration-none fs-5 :to="{ name: 'cocktail.show'}">Cocktail</router-link></li> -->
           <li><router-link class="color text-decoration-none fs-5" :to="{ name: 'about_us' }">Chi Siamo</router-link></li>
           <li><router-link class="color text-decoration-none fs-5" :to="{ name: 'contacts' }">Contatti</router-link></li>
         </ul>
