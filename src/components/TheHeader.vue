@@ -53,9 +53,9 @@ export default {
   height: 100px;
   
   .color {
-    color: black;
+    color: #80725f;
     &:hover {
-      color: rgb(109, 96, 21);
+      color: rgb(160, 140, 28);
     }
   }
 }
