@@ -4,26 +4,26 @@
 
   export default{
     components: {
-            TheHeader,
-            TheFooter,
-        }
+      TheHeader,
+      TheFooter,
+    }
   }
 </script>
 
 <template>
   <TheHeader></TheHeader>
-  <router-view></router-view>
-  <footer>
-    <TheFooter></TheFooter>
-  </footer>
+  <div class="main">
+    <router-view></router-view>
+  </div>
+  <TheFooter></TheFooter>
 </template>
 
 <style lang="scss">
 
-footer {
-  width: 100vw;
-  position: fixed;
-  bottom: 0;
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 </style>
