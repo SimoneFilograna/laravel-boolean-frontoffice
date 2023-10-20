@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <h1>show</h1>
+    <h1 class="mt-5">show</h1>
 </template>
 
 <style lang="scss" scoped>
