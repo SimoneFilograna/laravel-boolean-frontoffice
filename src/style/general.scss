@@ -1,3 +1,18 @@
 @import "bootstrap";
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 
+#app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    header{
+        flex-grow: 0;
+    }
+
+    main{
+        overflow: auto;
+        flex-grow: 1;
+    }
+    
+}
