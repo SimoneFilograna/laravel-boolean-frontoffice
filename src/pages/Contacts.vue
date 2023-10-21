@@ -7,6 +7,7 @@ export default {
 <template>
     <div class="container">
         <h1 class="text-center fw-bold my-4">Contattaci</h1>
+>>>>>>> 25c0110a55978eaaa10e95b8592b2741cab6ab9c
 
         <div class="row">
             <div class="col-5">
