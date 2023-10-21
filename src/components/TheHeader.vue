@@ -1,5 +1,10 @@
 <script>
+import Slider from './Slider.vue';
+
 export default {
+  components: {
+    Slider
+  },
   data() {
     return {
 
@@ -27,6 +32,7 @@ export default {
       </div>
     </nav>
   </header>
+  <Slider />
 </template>
 
 <style lang="scss">
