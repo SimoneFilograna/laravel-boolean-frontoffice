@@ -1,10 +1,6 @@
 <script>
-import Slider from '../components/Slider.vue';
 
 export default {
-    components: {
-        Slider,
-    },
     data() {
         return {
         }
