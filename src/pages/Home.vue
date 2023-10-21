@@ -1,12 +1,10 @@
 <script>
-import Slider from '../components/Slider.vue';
-import axios from 'axios'
-import CardCocktail from '../components/CardCocktail.vue'
+import axios from 'axios';
+import CardCocktail from './components/CardCocktail.vue';
 
 
 export default {
     components: {
-        Slider,
         CardCocktail,
     },
     data() {
@@ -34,7 +32,6 @@ export default {
 </script>
 
 <template>
-    <Slider></Slider>
     <div class="container mt-4">
         <h1 class="text-center">HOME</h1>
         <div class="row row-cols-3 g-5 justify-content-center">
