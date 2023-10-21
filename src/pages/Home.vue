@@ -1,6 +1,6 @@
 <script>
 import axios from 'axios';
-import CardCocktail from './components/CardCocktail.vue';
+import CardCocktail from '../components/CardCocktail.vue';
 
 
 export default {
