@@ -14,19 +14,16 @@
 
 <template>
   <TheHeader></TheHeader>
-  <div class="main">
+
+  <main>
     <Slider></Slider>
     <router-view></router-view>
-  </div>
+  </main>
+  
   <TheFooter></TheFooter>
 </template>
 
 <style lang="scss">
 
-.main {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
 
 </style>

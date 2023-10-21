@@ -16,7 +16,7 @@
             <div class="card-img-overlay text-center">    
                 <div class="center-container">
                     <h2 class="card-title">{{singleDrink.name}}</h2>
-                    <p class="card-text"><small>{{ singleDrink.category }}</small></p>      
+                    <p class="card-text"><small class="fst-italic">{{ singleDrink.category }}</small></p>      
                 </div>         
             </div>
         </div>
