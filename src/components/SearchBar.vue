@@ -22,7 +22,7 @@ export default {
 
 <template>
   <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Cerca il nome del cocktail" v-model="searchCocktail">
+    <input type="text" class="form-control" placeholder="Cerca il nome del cocktail" v-model="searchCocktail" @keyup.enter="fetchCocktail">
     <button class="btn btn-outline-secondary" type="button" @click="fetchCocktail">Cerca</button>
   </div>
 

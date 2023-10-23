@@ -35,7 +35,6 @@
     <h1 class="text-center mt-5 style-text">Cocktails</h1>
     <p class="text-center mb-5 fst-italic"> A list of our best Drinks</p>
     <div class="container">
-        <h1 class="text-center mt-5">Cocktails</h1>
         <div class="search my-5">
             <h4>Filtri:</h4>
             <SearchBar></SearchBar>
