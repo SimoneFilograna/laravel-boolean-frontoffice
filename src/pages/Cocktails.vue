@@ -30,7 +30,8 @@
 
 <template>
     
-    <h1 class="text-center mt-5">Cocktails</h1>
+    <h1 class="text-center mt-5 style-text">Cocktails</h1>
+    <p class="text-center mb-5 fst-italic"> A list of our best Drinks</p>
     <div class="container">
         <div class="row row-cols-3 g-5 justify-content-center">
             <div class="col" v-for="cocktail in cocktailsList" :key="cocktail.id">

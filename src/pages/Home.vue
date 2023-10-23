@@ -37,8 +37,8 @@ export default {
         <p class="text-center mb-5 fst-italic"> The Best Lounge Bar in Boolean</p>
         <p class="text-center mb-5 px-5 fst-italic">La nostra pagina di cocktail è un luogo dove l'eleganza e il gusto si incontrano per creare esperienze indimenticabili. Qui, ogni bevanda è una forma d'arte, un'esplosione di sapori e colori che delizia non solo il palato, ma anche gli occhi. La nostra selezione di cocktail è curata con passione da mixologist di classe mondiale, che utilizzano solo gli ingredienti più pregiati e le tecniche più raffinate. Che tu sia un esperto di cocktail o un principiante alla ricerca di nuove esperienze gustative, ti invitiamo a immergerti in questo mondo di sofisticate libagioni, dove l'atmosfera è sempre carica di stile e fascino. <br>
              Benvenuti nel regno del cocktail di classe.</p>
-        <div class="row row-cols-3 g-5 justify-content-center">
-            <div class="col" v-for="cocktail in cocktailsList" :key="cocktail.id">
+        <div class="row row-cols-3  justify-content-center">
+            <div class="col-12 col-md-6" v-for="cocktail in cocktailsList" :key="cocktail.id">
                 <CardCocktail :singleDrink="cocktail"></CardCocktail>
             </div>
         </div>
@@ -50,6 +50,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+
     .main-container{
         margin-top: 6rem;
 
