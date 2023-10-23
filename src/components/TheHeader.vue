@@ -23,7 +23,7 @@ export default {
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="d-flex list-unstyled gap-3 pt-3">
             <li><router-link class="color text-decoration-none fs-5" :to="{ name: 'home' }">Home</router-link></li>
             <li><router-link class="color text-decoration-none fs-5" :to="{ name: 'cocktails' }">Cocktail</router-link>
@@ -45,12 +45,12 @@ export default {
 .nav-box {
   height: 100px;
 
-  .color {
+};
+.color {
     color: #80725f;
 
     &:hover {
       color: rgb(160, 140, 28);
     }
-  }
-}
+  };
 </style>

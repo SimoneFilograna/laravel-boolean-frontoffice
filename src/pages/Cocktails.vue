@@ -41,7 +41,7 @@
             <SearchBar></SearchBar>
         </div>
         <div class="row row-cols-3 g-5 justify-content-center">
-            <div class="col" v-for="cocktail in cocktailsList" :key="cocktail.id">
+            <div class="col-12 col-sm-6 col-md-4" v-for="cocktail in cocktailsList" :key="cocktail.id">
                 <CardCocktail :singleDrink="cocktail"></CardCocktail>
             </div>
         </div>
