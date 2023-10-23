@@ -9,7 +9,7 @@ export default {
         <h1 class="text-center fw-bold my-4">Contattaci</h1>
 
         <div class="row">
-            <div class="col-5">
+            <div class="col-12 col-lg-6">
                 <form action="">
                     <div class="mb-3">
                         <label for="name" class="form-label fw-bold">Inserisci il tuo nome</label>
@@ -29,7 +29,7 @@ export default {
                     </div>
                 </form>
             </div>
-            <div class="col-7 container-img">
+            <div class="col-12 col-lg-6 container-img text-center m-auto">
                 <img src="../assets/images/drink2.jpg" alt="">
             </div>
         </div>
