@@ -17,7 +17,7 @@ export default {
           <p class="color fs-6 hide-600"><i class="fa-solid fa-location-dot" style="color: #80725f;"></i> Via Brombeis, 23, Napoli</p>
         </div>
         <div class="pt-5 w-100-600">
-          <ul class="d-flex list-unstyled justify-content-around">
+          <ul class="d-flex list-unstyled justify-content-around gap-2">
             <li class="color text-decoration-none fs-6">Privacy Policy</li>
             <li class="color text-decoration-none fs-6 m-auto">|</li>
             <li class="color text-decoration-none fs-6">Site Map</li>
