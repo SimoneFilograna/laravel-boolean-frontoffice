@@ -13,7 +13,7 @@ export default {
 
 
     <nav class="navbar navbar-expand-sm bg-body-tertiary">
-      <div class="container-fluid d-flex justify-content-between">
+      <div class="container-fluid d-flex justify-content-between px-5">
         <div class="d-flex nav-box py-3">
           <img src="../assets/images/nav-logo.png">
 
