@@ -68,5 +68,19 @@ export default {
 <style lang="scss" scoped>
 .search {
     width: 500px;
+
+    .form-select:focus {
+    border-color: lightgray;
+    outline: 0;
+    box-shadow: 0 0 0px 0px #80725f00;
+    }
+
+    button{
+        background-color: #6e5f4c;  
+
+    &:active{
+        background-color: #4d453b;
+        }
+    }
 }
 </style>

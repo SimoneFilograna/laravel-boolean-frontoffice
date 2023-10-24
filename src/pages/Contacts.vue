@@ -6,9 +6,9 @@ export default {
 
 <template>
     <div class="container">
-        <h1 class="text-center fw-bold my-4">Contattaci</h1>
+        <h1 class="text-center fw-bold my-5 style-text">Contattaci</h1>
 
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-12 col-lg-6">
                 <form action="">
                     <div class="mb-3">
