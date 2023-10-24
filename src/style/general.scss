@@ -1,2 +1,30 @@
 @import "bootstrap";
 @import "@fortawesome/fontawesome-free/css/all.min.css";
+
+#app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    header{
+        flex-grow: 0;
+    }
+
+    main{
+        overflow: auto;
+        flex-grow: 1;
+        padding-bottom: 6rem;
+
+        .style-text{
+            font-family: 'Dancing Script', cursive;
+            font-weight: 700;
+            color: #80725F;
+            font-size: 4rem;
+        }
+    }
+
+    footer{
+        padding: 1.1rem;
+    }
+    
+}
