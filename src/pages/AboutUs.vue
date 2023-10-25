@@ -19,9 +19,9 @@ export default {
                     locale estremamente raffinato che lascia pagare chi non ci è mai stato, tantomeno in moto.
                     Un luogo piccolo ma carataristico, dal pelo lungo e le corna belle, sempre molto felice per
                     aver partecipato a questa manifestazione.. eh son soddisfazioni, del'animale che è una bella bestia;
-                    perchè è bella.. è sempre bella! Perchè la capra è il migliore animale che c'è, dopo la donna!
+                    perchè è bella.. è sempre bella! Perchè la capra è il migliore animale che c'è!
                     E dunque cosa ci rende i migliori della nostra categoria? Qual'è la nostra ricetta? 
-                    Zucchero, cannella ed ogni cosa è bella; questi sono gli ingredienti per creare le ragazzine perfette,
+                    Zucchero, cannella ed ogni cosa è bella; questi sono gli ingredienti per creare bevande perfette,
                     ma il professor Utonium aggiunse un ulteriore ingrediente alla mistura, il Chemical X, e così naquero le superchicche.
                     
                     Il nostro locale non è un locale per tutti, nato inizialmente per le alte cariche dello stato di carica della batteria,
